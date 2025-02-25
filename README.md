@@ -6,8 +6,10 @@ Bu uygulama, React.js kullanılarak geliştirilmiş modern bir 5 günlük hava d
 
 OpenWeatherMap API'si ile güncel ve 5 günlük hava durumu verilerini görüntüleyebilirsiniz.
 
-![Image](https://github.com/user-attachments/assets/f96fc08d-0ff5-472c-b6f1-5fb250713584) 
 ![Image](https://github.com/user-attachments/assets/6e1db3d5-de07-4a05-acf1-7745d97ce3e5) 
+
+
+![Image](https://github.com/user-attachments/assets/f96fc08d-0ff5-472c-b6f1-5fb250713584) 
 
 Özellikler
 
