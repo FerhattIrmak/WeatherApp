@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+**************  5 Günlük Hava Durumu Uygulaması   ******************
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Bu uygulama, React.js kullanılarak geliştirilmiş modern bir 5 günlük hava durumu tahmin uygulamasıdır.
 
-In the project directory, you can run:
 
-### `npm start`
+OpenWeatherMap API'si ile güncel ve 5 günlük hava durumu verilerini görüntüleyebilirsiniz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Image](https://github.com/user-attachments/assets/f96fc08d-0ff5-472c-b6f1-5fb250713584) 
+![Image](https://github.com/user-attachments/assets/6e1db3d5-de07-4a05-acf1-7745d97ce3e5) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Özellikler
 
-### `npm test`
+Güncel hava durumu bilgisi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+5 günlük hava durumu tahmini
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Detaylı hava bilgileri (sıcaklık, nem, rüzgar, basınç)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Tamamen responsive tasarım
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Türkçe dil desteği
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Modern ve kullanıcı dostu arayüz
 
-## Learn More
+Kurulum
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
-### Code Splitting
+# Repoyu klonlayın
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+git clone https://github.com/FerhattIrmak/WeatherApp.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Proje dizinine gidin
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd hava-durumu-uygulamasi
 
-### Advanced Configuration
+# Bağımlılıkları yükleyin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Uygulamayı başlatın
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+
+Kullanım
+
+Arama kutusuna bir şehir adı girin
+
+
+"Ara" butonuna tıklayın veya Enter tuşuna basın
+
+
+Güncel hava durumu ve 5 günlük tahmin görüntülenecektir
+
+API Kullanımı
+
+
+Bu uygulama, OpenWeatherMap API'sini kullanmaktadır. Kendi API anahtarınızı almak için OpenWeatherMap web sitesinden ücretsiz bir hesap oluşturabilirsiniz.
+
+
+API anahtarınızı App.js dosyasındaki API_KEY değişkenine atayın:
+
+const API_KEY = "sizin_api_anahtariniz";
+
+Teknolojiler
+
+-React.js
+
+
+-CSS3
+
+
+-OpenWeatherMap API
+
+
+-JavaScript ES6+
+
+Lisans
+
+
+Bu proje MIT Lisansı altında lisanslanmıştır.
+
